@@ -1,0 +1,88 @@
+.Header{
+    height : 60px;
+    display: flex;
+    align-items: center;
+    background-color : #304040;
+    position:sticky;
+    top: 0;
+    z-index: 100;
+    color: #c9d1c8 !important;
+    direction:rtl;
+    font-family : B Mitra;
+    text-decoration: none !important;
+}
+
+.MainLogo{
+    height : 60px;
+    max-width: 140px;
+    margin-left: 10px;
+    margin-top: 25px;
+}
+
+.SearchBoxContainer{
+    height : 60px;
+    display: flex;
+    align-items: center;
+    position:sticky;
+    top: 0;
+    z-index: 100;
+    display: flex;
+    flex : 1;
+    align-items: center;
+    border-radius: 24px;
+}
+
+.SearchBox{
+    height: 23px;
+    flex : 1;
+}
+
+.SearchIcon{
+    padding:4px;
+    height: 21px !important;
+    background-color: #5b7065;
+    margin-left: 10px;
+}
+
+.headerNav{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.Options{
+    display: flex;
+    flex-direction: column;
+    margin-left:20px;
+    margin-right: 20px;
+    text-decoration: none !important;
+}
+
+.option_no_1{
+    font-size: 15px;
+}
+
+.option_no_2{
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.BasketIcon{ 
+    /* margin-left: -30px !important; */
+    display: flex;
+    align-items: center;
+    color: #c9d1c8;
+    margin-top: 5px;
+    text-decoration: none !important;
+}
+
+.Count{
+    font-size: 20px;
+    color: #c9d1c8;
+    text-decoration: none !important;
+    margin-top: -5px;
+}
+
+.loginHeader{
+    color: #c9d1c8 !important;
+    text-decoration: none !important;
+}

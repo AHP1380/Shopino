@@ -1,0 +1,27 @@
+.Checkout{
+    display:block;
+    padding:20px;
+    background-color : white;
+    height : max-content;
+    direction: rtl;
+}
+
+.TitleOrg{
+    margin-right: 10px;
+    margin-bottom: 50px;
+    padding: 10px;
+    text-align: center;
+    font-size: 40px !important;
+    /* border-bottom: 1px solid lightgray; */
+}
+
+.RightPart{
+    display: flex; 
+    flex-direction : column ;
+    justify-content : center;
+    align-items : center ;
+}
+
+.Sub{
+    border-top: 1px solid lightgray;
+}

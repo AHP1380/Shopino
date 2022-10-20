@@ -1,0 +1,39 @@
+.CheckoutProduct{
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 60px;
+    border-bottom: 2px solid darkgray;
+}
+
+.Info{
+    padding-left: 20px;
+}
+
+.Button{
+    background: #5b7065;
+    border:1px solid ;
+    margin-top: -100px;
+    border-color: #c9d1c8 #304040 #04202c;
+    color: #c9d1c8;
+}
+
+.Title{
+    font-size: 17px;
+    font-weight: 800;
+    margin-bottom: 5px !important;
+}
+
+/* .Price{
+
+} */
+
+.Rate{
+    display: flex;
+}
+
+.Image{
+    object-fit: contain;
+    width: 100px;
+    height: 180px;
+    margin-left: 20px;
+}
