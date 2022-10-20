@@ -18,6 +18,7 @@ function Checkout() {
             <div>
                 <h2 className="TitleOrg">سبد خرید شما</h2>
                 {basket.map( item => (
+                    
                     <CheckoutProduct 
                         Id={item.Id}
                         Title={item.Title}
