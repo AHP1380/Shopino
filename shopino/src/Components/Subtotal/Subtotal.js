@@ -32,7 +32,7 @@ function Subtotal() {
             thousandSeparator={true}
             prefix={"$"}
             />
-            <button>
+            <button onClick={e => history('/payment')}>
                 ادامه فرایند خرید
             </button>
         </div>

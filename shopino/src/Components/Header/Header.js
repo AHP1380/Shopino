@@ -29,7 +29,7 @@ function Header() {
         <Link to={!user && "/login"} className="loginHeader">
           <div onClick={handleAuthentication} className="Options">
             <span className="option_no_1">
-              سلام کاربر مهمان 
+                {!user ? "کاربر مهمان" : user.email}
             </span>
             <span className="option_no_2">
             {user ? 'خروج' : 'ورود'}
